@@ -7,6 +7,22 @@
     <title>Audio Player</title>
   </head>
   <body>
-    <div>Audio Player</div>
+    <h1>Audio Player</h1>
+    <div id="visualizer">
+      <div id="canvas"></div>
+    </div>
+
+    <div id="progress_box">
+      <h1>Upload Music</h1>
+      <input type="file" id="input" placeholder="Upload audio" />
+      <div id="play" class="play"></div>
+      <div id="track_time">
+        <span class="seek"></span>/<span class="total"></span>
+      </div>
+      <div id="progress_bar_box">
+        <div id="progress_bar"></div>
+        <div id="progress"></div>
+      </div>
+    </div>
   </body>
 </html>

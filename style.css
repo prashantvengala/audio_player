@@ -7,15 +7,18 @@ h1 {
   text-align: center;
 }
 .container {
-  padding: 2%;
+  padding: 5%;
 }
 
 /* canvas */
 #canvas {
   border: 2px solid black;
+  border-radius: 5px;
   width: 100%;
-  height: 20vh;
+  height: 50vh;
   margin: auto;
+  padding: 10px;
+  background: whitesmoke;
 }
 
 /* buttons */
@@ -25,4 +28,16 @@ h1 {
 }
 .buttons span {
   padding: 2%;
+}
+.control-btn > i {
+  color: rgb(21, 148, 199);
+  cursor: pointer;
+}
+
+.playDiv {
+  text-align: center;
+  height: 70px;
+  width: 140px;
+  border: 1px solid cyan;
+  border-radius: 35px;
 }

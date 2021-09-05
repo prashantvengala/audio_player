@@ -4,25 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Audio Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Audio Player Visualizer</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Audio Player</h1>
-    <div id="visualizer">
-      <div id="canvas"></div>
-    </div>
-
-    <div id="progress_box">
-      <h1>Upload Music</h1>
-      <input type="file" id="input" placeholder="Upload audio" />
-      <div id="play" class="play"></div>
-      <div id="track_time">
-        <span class="seek"></span>/<span class="total"></span>
-      </div>
-      <div id="progress_bar_box">
-        <div id="progress_bar"></div>
-        <div id="progress"></div>
+    <header>
+      <h1>Audio Player Visualizer</h1>
+    </header>
+    <div class="container">
+      <canvas id="canvas"></canvas>
+      <div class="buttons">
+        <span><i class="fas fa-play-circle fa-3x"></i></span>
+        <span><i class="fas fa-pause-circle fa-3x"></i></span>
       </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
